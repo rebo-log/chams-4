@@ -1,0 +1,217 @@
+/* Your Stylesheet */
+/* All your edits should go here */
+#display-01 div {
+  border: blue 3px;
+  border-style: solid;
+  border-width: thin;
+  display: inline-block;
+  margin: 20px;
+}
+
+#display-02 {
+  display: grid;
+  border: rgb(0, 0, 0) 1px solid;
+}
+
+#display-02 span {
+  border: 1px red solid;
+}
+
+#display-03 div {
+  display: inline-block;
+  border: rgb(37, 214, 37) 1px solid;
+  padding-right: 20px;
+  text-align: left;
+  height: 20.5mm;
+  width: 20mm;
+  box-sizing: border-box;
+}
+
+#display-04 div:nth-child(1) {
+  display: none;
+}
+
+#display-05 a {
+  width: 50%;
+  background-color: rgb(202, 202, 202);
+  height: 52px;
+  display: block;
+  padding-top: 23px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 23px;
+}
+
+#boxmodel-01 {
+  width: 100%;
+  box-sizing: border-box;
+}
+#boxmodel-01 div {
+  box-sizing: border-box;
+  width: 50%;
+  height: 180px;
+  border: 25px solid rgb(49, 47, 47);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 39px;
+  padding-left: 50px;
+  color: rgb(105, 102, 102);
+}
+
+#boxmodel-02 div {
+  box-sizing: content-box;
+  width: 50%;
+  padding: 20px;
+  border: 20px solid rgb(68, 62, 62);
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+#position-01 div {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(230, 15, 15);
+  margin: 0px;
+}
+
+#position-01 div:nth-child(2n + 0) {
+  position: relative;
+  margin-left: 70px;
+}
+
+#position-02 div {
+  border: rgb(90, 86, 86) 1px solid;
+}
+
+#position-02 span {
+  display: block;
+  box-sizing: border-box;
+}
+
+#position-02 span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#position-02 span:nth-child(4) {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+}
+#position-02 span:nth-child(2) {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#position-02 span:nth-child(3) {
+  position: absolute;
+  right: 0;
+
+  top: 70px;
+}
+
+#position-03 div {
+  border: 2px solid rgb(121, 115, 115);
+  width: 96%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#position-03 span {
+  display: block;
+  box-sizing: border-box;
+  color: rgb(121, 115, 115);
+}
+
+#position-03 span:nth-child(1) {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  height: 10px;
+}
+#position-03 span:nth-child(4) {
+  position: absolute;
+  margin-top: 70px;
+  width: 30px;
+  height: 10px;
+}
+#position-03 span:nth-child(2) {
+  position: absolute;
+  left: 91%;
+  top: 50px;
+  width: 30px;
+  height: 10px;
+}
+#position-03 span:nth-child(3) {
+  position: absolute;
+  right: 70px;
+  top: 126px;
+}
+
+#position-04 div {
+  position: absolute;
+  top: -8490px;
+}
+
+#position-05 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.outer-box {
+  height: 4rem;
+  width: 4rem;
+  background-color: lightgray;
+  position: absolute;
+  left: 0;
+  top: -0px;
+}
+
+.inner-box {
+  height: 1rem;
+  width: 1rem;
+  background-color: black;
+  display: block;
+  position: relative;
+  left: 35px;
+  align-items: center;
+}
+.outer-box-1 {
+  height: 4rem;
+  width: 4rem;
+  background-color: lightgray;
+  position: absolute;
+  left: 1150px;
+  top: -0;
+}
+
+.inner-box-1 {
+  height: 1rem;
+  width: 1rem;
+  background-color: black;
+  position: absolute;
+  right: 35px;
+}
+
+#position-06 {
+  background-color: lavender;
+}
+
+#position-07 {
+  position: fixed;
+  left: 500px;
+  bottom: 0px;
+  background-color: lavender;
+  padding: 10px;
+  opacity: 0.5;
+}
+#position-07 a {
+  margin: 60px;
+}
